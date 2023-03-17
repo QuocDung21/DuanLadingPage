@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero";
 import MoreInfoModal from "../components/MoreInfoModal";
 import MoreInfo from "../components/MoreInfoModal";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Sanphamkhac from "../components/Sanphamkhac";
 import Teacher from "../components/Teachers";
 import Uudiem from "../components/Uudiem";
