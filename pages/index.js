@@ -6,9 +6,9 @@ import Hero from "../components/Hero";
 import MoreInfoModal from "../components/MoreInfoModal";
 import MoreInfo from "../components/MoreInfoModal";
 import Navbar from "../components/Navbar";
-import Student from "../components/Student";
+import Sanphamkhac from "../components/Sanphamkhac";
 import Teacher from "../components/Teachers";
-import Values from "../components/Values";
+import Uudiem from "../components/Uudiem";
 
 export default function Home() {
   return (
@@ -24,9 +24,9 @@ export default function Home() {
       </Head>
       
     <Hero/>
-    <Values/>
+    <Uudiem/>
     <Teacher/>
-    <Student/>
+    <Sanphamkhac/>
    <MoreInfoModal/>
    <Cta/>
    <Footer/>
