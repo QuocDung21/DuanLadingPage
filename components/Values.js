@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <div className="container mx-auto py-20">
+    <div className=" mx-auto ">
       <p className="text-base lg:text-xl font-medium text-gray-500 text-center">
         WHY CHOOSE US
       </p>

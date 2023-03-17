@@ -2,7 +2,7 @@ import React from "react";
 
 const Student = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="mx-auto ">
       <p className="text-gray-500 text-base lg:text-xl font-medium uppercase">
         Top Studying
       </p>

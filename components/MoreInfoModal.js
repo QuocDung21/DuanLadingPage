@@ -29,7 +29,7 @@ const MoreInfoModal = () => {
     },
   ]
   return (
-    <div className="container mx-auto py-20">
+    <div className="mx-auto">
       <p className="text-gray-500 text-2xl font-medium uppercase my-3">
         MORE INFO
       </p>
@@ -39,7 +39,6 @@ const MoreInfoModal = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
         {info.map((inf, i) => {
           return (
-
             <Disclosure key={i} >
               {({ open }) => (
                 <div className='group'>
@@ -51,20 +50,15 @@ const MoreInfoModal = () => {
                           }  text-[#524fd5] text-2xl group-hover:text-white  group-focus:text-white `}
                       />
                     </div>
-
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500 group-focus:text-white group-hover:text-white">
                       {inf.des}
                     </Disclosure.Panel>
                   </Disclosure.Button>
-
                 </div>
               )}
             </Disclosure>
-
           )
         })}
-
-
       </div>
     </div>
   )

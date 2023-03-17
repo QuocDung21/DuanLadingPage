@@ -2,7 +2,7 @@ import React from "react";
 
 const Teacher = () => {
   return (
-    <div className="container mx-auto py-20">
+    <div className="mx-auto ">
       <p className="text-base lg:text-xl font-medium text-gray-500 uppercase">
         Key Person
       </p>
@@ -19,7 +19,6 @@ const Teacher = () => {
               Italian teacher
             </p>
           </div>
-
         </div>
         <div className="flex flex-col gap-5 ">
           <img src="/assets/t2.svg" alt="v1" />
