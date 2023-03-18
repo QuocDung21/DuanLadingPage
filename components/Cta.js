@@ -9,15 +9,15 @@ const Cta = () => {
         </div> */}
         <div>
           <div className="card rounded-md overflow-hidden relative group  md:mx-auto lg:mr-auto mx-auto">
-            <div class=" transform transition duration-[1500ms] ease-in-out hover:scale-125  hover:brightness-50">
-              <div class="z-10 h-full absolute bottom-0 left-0 w-full bg-gray-900 opacity-30 to-transparent"></div>
-              <div class="bg-[url('/assets/img1.png')] h-[500px] bg-cover bg-right  "></div>
+            <div className=" transform transition duration-[1500ms] ease-in-out hover:scale-125  hover:brightness-50">
+              <div className="z-10 h-full absolute bottom-0 left-0 w-full bg-gray-900 opacity-30 to-transparent"></div>
+              <div className="bg-[url('/assets/img1.png')] h-[500px] bg-cover bg-right  "></div>
 
               {/* <img src="/assets/img2.png" alt="bg" class="h-[500px] " /> */}
             </div>
-            <div class="group-hover:bottom-5 transition-all absolute -bottom-10 left-0 text-white p-10 z-40 duration-[1500ms]">
-              <h3 class="mb-20 text-[24px] font-['Muli-sans-serif'] font-light capitalize leading-[1.4em]">
-                <a class="">
+            <div className="group-hover:bottom-5 transition-all absolute -bottom-10 left-0 text-white p-10 z-40 duration-[1500ms]">
+              <h3 className="mb-20 text-[24px] font-['Muli-sans-serif'] font-light capitalize leading-[1.4em]">
+                <a >
                   {/* Sạc tại nhà giúp tiết kiện tài chính và linh hoạt thời gian
                   hơn so với sạc ngoài trạm */}
                 </a>
@@ -28,15 +28,15 @@ const Cta = () => {
 
         <div>
           <div className="card rounded-md overflow-hidden relative group md:mx-auto lg:mr-auto mx-auto">
-            <div class=" transform transition duration-[1500ms] ease-in-out hover:scale-125  hover:brightness-50">
-              <div class="z-10 h-full absolute bottom-0 left-0 w-full bg-gray-900 opacity-30 to-transparent"></div>
-              <div class="bg-[url('/assets/img2.png')] h-[500px] bg-cover bg-center  "></div>
+            <div className=" transform transition duration-[1500ms] ease-in-out hover:scale-125  hover:brightness-50">
+              <div className="z-10 h-full absolute bottom-0 left-0 w-full bg-gray-900 opacity-30 to-transparent"></div>
+              <div className="bg-[url('/assets/img2.png')] h-[500px] bg-cover bg-center  "></div>
 
               {/* <img src="/assets/img2.png" alt="bg" class="h-[500px] " /> */}
             </div>
-            <div class="group-hover:bottom-5 transition-all absolute -bottom-10 left-0 text-white p-10 z-40 duration-[1500ms]">
-              <h3 class="mb-20 text-[24px] font-['Muli-sans-serif'] font-light capitalize leading-[1.4em]">
-                <a class="">
+            <div className="group-hover:bottom-5 transition-all absolute -bottom-10 left-0 text-white p-10 z-40 duration-[1500ms]">
+              <h3 className="mb-20 text-[24px] font-['Muli-sans-serif'] font-light capitalize leading-[1.4em]">
+                <a >
                   Sạc tại nhà giúp tiết kiện tài chính và linh hoạt thời gian
                   hơn so với sạc ngoài trạm
                 </a>
@@ -59,7 +59,7 @@ const Cta = () => {
               className="border border-black p-2 rounded-lg lg:w-[500px] lg:h-[50px] md:w-[100%] w-[100%]"
               placeholder="Your email"
             />
-            <button class="bg-[#00FFFF] hover:bg-[#0B1A4A] text-black hover:text-[#00FFFF] font-bold py-2 px-6  rounded transition duration-300 transform hover:scale-125 hover:filter hover:brightness-90 md:w-[100%] lg:w-[100px] w-[100%]">
+            <button className="bg-[#00FFFF] hover:bg-[#0B1A4A] text-black hover:text-[#00FFFF] font-bold py-2 px-6  rounded transition duration-300 transform hover:scale-125 hover:filter hover:brightness-90 md:w-[100%] lg:w-[100px] w-[100%]">
               Gửi
             </button>
           </div>
