@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
-*{
+
+* {
     font-family: 'Clash Display', sans-serif;
+}
+
+:root {
+
+    --color-bg-wawe: #0B1A4A;
+    --h-wawe: 30px;
+    --w-wawe: 321px;
+
+    /* Component Info */
+    --fs-info-title: 45px;
+    --fs-info-text: 15px;
+
+
+    /* Button */
+    --color-text-primary: #FFFF;
+    --color-bg-btn: #00FFFF;
+
+
+    /* Button animation */
+    --transform-btn: scale(1.1);
+    --transition-btn: transform .2s;
+    /* End Button animation */
+}
+
+.box {
+    --mask:
+        radial-gradient(18.7px at 50% calc(100% + 9.10px), #0000 calc(99% - 4px), #000 calc(101% - 4px) 99%, #0000 101%) calc(50% - 28px) calc(50% - 9px + .5px)/56px 18px repeat-x,
+        radial-gradient(18.7px at 50% -9.1px, #0000 calc(99% - 4px), #000 calc(101% - 4px) 99%, #0000 101%) 50% calc(50% + 9px)/56px 18px repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    background-color: #00FFFF;
+    height: var(--h-wawe);
+    width: var(--w-wawe);
+}
+
+.box1 {
+    --mask:
+        radial-gradient(18.7px at 50% calc(100% + 9.10px), #0000 calc(99% - 4px), #000 calc(101% - 4px) 99%, #0000 101%) calc(50% - 28px) calc(50% - 9px + .5px)/56px 18px repeat-x,
+        radial-gradient(18.7px at 50% -9.1px, #0000 calc(99% - 4px), #000 calc(101% - 4px) 99%, #0000 101%) 50% calc(50% + 9px)/56px 18px repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    background-color: #00FFFF;
+    height: var(--h-wawe);
+    width: var(--w-wawe);
 }
