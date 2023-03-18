@@ -16,9 +16,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      monoton:["Monoton", "cursive"],
-      satoshi:['Satoshi', 'sans-serif'],
-      clash:['Clash Display', 'sans-serif'],
+      monoton: ["Monoton", "cursive"],
+      satoshi: ['Satoshi', 'sans-serif'],
+      clash: ['Clash Display', 'sans-serif'],
       infinite: ["Outfit", "sans-serif"],
       bebasneo: ['Bebas Neue', 'cursive'],
     },
@@ -63,8 +63,16 @@ module.exports = {
           primary: "#ff5555",
           "primary-focus": "#E74848",
         },
+        'sm': '576px',
+        // => @media (min-width: 576px) { ... }
+  
+        'md': '960px',
+        // => @media (min-width: 960px) { ... }
+  
+        'lg': '1440px',
+        // => @media (min-width: 1440px) { ... }
       },
     ],
   },
-  plugins: [ require("daisyui"),require('@tailwindcss/line-clamp')],
+  plugins: [require("daisyui"), require('@tailwindcss/line-clamp')],
 };
