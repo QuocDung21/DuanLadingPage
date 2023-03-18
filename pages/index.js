@@ -3,6 +3,7 @@ import Image from "next/image";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero";
+import LuuY from "../components/LuuY";
 import MoreInfoModal from "../components/MoreInfoModal";
 import MoreInfo from "../components/MoreInfoModal";
 import Navbar from "../components/Navbar/Navbar";
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
       
     <Hero/>
+    <LuuY/>
     <Uudiem/>
     <Teacher/>
     <Sanphamkhac/>
