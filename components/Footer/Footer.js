@@ -12,7 +12,7 @@ const Footer = () => {
             <img className="h-[30px] w-[30px]" src="https://phukienotodien.com.vn/wp-content/uploads/2023/02/phukienotodien-scaled.jpg" />
           </a>
         </div>
-        <div className="w-[100%] lg:text-left text-[15px] text-center md:text-center">
+        <div className="w-[100%] lg:text-left text-[16px] text-center md:text-center xl2:text-right">
           <p className="text-[#FFF] ">Lắp đặt ngay bộ sạc ô tô điện tại nhà với chức năng sạc nhanh, thao tác đơn giản, an toàn và tiện lợi nhất</p>
         </div>
       </div>
