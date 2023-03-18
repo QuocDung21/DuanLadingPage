@@ -24,7 +24,7 @@ const Uudiem = () => {
         <div className="flex flex-col gap-5 items-center">
           <img src="/assets/changing.png" alt="v1" className="w-[333px] h-[333px]" />
           <button className=" bg-[#00ffff] h-[44px] w-[230px] rounded-[20px] ">
-            Mua Ngay: 0931.848.775
+            Mua Ngay: <a href={`tel:0931848775`}>0931.848.775</a>
           </button>
         </div>{" "}
         <div className="flex flex-col gap-5 items-center">
