@@ -1,0 +1,28 @@
+.cta_hv{
+    display: block;
+}
+.cta{
+    display: block;
+}
+.cta_img{
+    transition: all 4s;
+    width: 100%;
+    overflow: hidden;
+}
+ .imgbg{
+    background-image: url("../public/assets/img2.png");
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.imgbg_overlay{
+    z-index: 2;
+}
+.cta_hv:not(:hover) > .imgbg_overlay{
+    background-color: rgba(105, 95, 95, 0.35);
+}
+.cta_hv:hover > .imgbg_overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
