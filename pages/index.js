@@ -32,8 +32,8 @@ export default function Home() {
       <Teacher />
       <Sanphamkhac />
       <MoreInfoModal />
-      <Cta />
       <UpdateInformation />
+      <Cta />
       <Footer />
     </div>
   );
