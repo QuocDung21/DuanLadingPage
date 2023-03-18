@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="bg-[#0b1a4a] w-full px-6 lg:px-16 py-10">
@@ -17,12 +17,14 @@ const Hero = () => {
           </p>
           <div className="flex flex-row gap-12 ">
             <div>
-              <button className="btn btn-sm lg:btn-lg bg-[#00ffff] color-[#0b1a4a] rounded-full border-none w-[50px] lg:w-[250px] capitalize">
-                Nhận báo giá ▶
-              </button>
+                <a href="https://zalo.me/0931848775" className="text-black border-none rounded-full bg-[#00ffff] ">
+                    Nhận báo giá ▶                 
+                </a>
             </div>
             <div>
-              <button className="text-white pt-[20px]">Tư vấn kỹ thuật ▶</button>
+              <button className="text-white pt-[20px]">
+                Tư vấn kỹ thuật ▶
+              </button>
             </div>
           </div>
         </div>
