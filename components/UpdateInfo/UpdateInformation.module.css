@@ -1,0 +1,55 @@
+.info {}
+
+.infoTitle {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-wawe);
+    overflow: hidden;
+    position: relative;
+}
+
+.info .fixBox {
+    background-color: yellow;
+    width: 100px;
+}
+
+.buttonInfo {
+    background-color: var(--color-bg-btn);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: var(--color-bg-wawe);
+    transition: transform .2s;
+    height: 40px;
+    width: 263px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonInfo:hover {
+    transform: var(--transform-btn);
+    transition: var(--transition-btn)
+}
+
+.buttonInfo i {
+    color: var(--color-bg-wawe);
+    padding-left: 3px;
+}
+
+.waweTop {}
+
+.rotateYWawe {
+    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+    position: relative;
+}
+
+.rotateYWawe::before {
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 9999;
+}

@@ -9,6 +9,7 @@ import Navbar from "../components/Navbar";
 import Student from "../components/Student";
 import Teacher from "../components/Teachers";
 import Values from "../components/Values";
+import UpdateInformation from "../components/UpdateInfo/UpdateInformation";
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
           rel="stylesheet"
         ></link>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
       </Head>
       <Hero />
       <Values />
@@ -28,6 +33,7 @@ export default function Home() {
       <Student />
       <MoreInfoModal />
       <Cta />
+      <UpdateInformation />
       <Footer />
     </div>
   );
